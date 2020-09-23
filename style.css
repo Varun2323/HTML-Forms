@@ -22,6 +22,8 @@ body {
 
 
 .signUp-button {
+    display:inline-flex;
+    justify-content: center;
     border-radius: 4px;
     color: white;
     background: #0077C5;
@@ -34,7 +36,7 @@ body {
     word-spacing: normal;
     width: 110px;
     height: 34px;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.5;
     text-align: center;
 }
@@ -51,8 +53,8 @@ body {
 }
 
 .SignIn-text {
-    margin-top: 20px;
-    vertical-align: middle;
+    padding-top: 5px;
+    padding-right: 3px;
 }
 
 .header-text {
@@ -153,17 +155,34 @@ body {
     color: #444;
 }
 
+.lock-icon {
+    position:relative;
+    right: 1px;
+    height: 32px;
+    top: 6px;
+    bottom: 1px;
+    margin-left: -30px;
+    color:grey;
+}
 .account-btn {
     background: #0077C5;
     border-radius: 4px;
     border: 1px solid #4c4c4c;
-    padding: 6px 12px;
+    padding: 12px 12px;
     font-weight: normal;
     color: #FFF;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
     width:350px;
     margin-top: 15px;
     margin-bottom: 30px;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.lock-1 {
+    vertical-align: middle;
+    padding-right: 5px;
+    font-size: 30px;
 }
 .learn-more {
     display: block;
@@ -203,6 +222,18 @@ body {
     text-decoration: none;
     padding-left: 10px;
     color:#505050;
+    font-size: 13px; 
+}
+
+.footer-info-1 , .footer-info-2 {
+    color:#505050;
+    display: block;
+    text-align: center; 
+    font-size: 15px;  
+}
+
+.termsAndConditions {
+    margin-top: -45px;
 }
 
 
