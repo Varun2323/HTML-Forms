@@ -105,6 +105,8 @@ body {
     margin: auto;
     overflow: visible;
     padding: 30px;
+    display: block;
+    width:380px;
 }
 
 .form-cont {
@@ -132,11 +134,13 @@ body {
 
 .email, .phone, .password {
     font-size: 20px;
+    color: #404040;
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .emailInput , .phoneInput , .passwordInput {
     margin-top: 10px;
-    width : 310px;
+    width : 350px;
     height: 35px;
     border: 1px solid #C1C5C8;
     border-radius: 3px;
@@ -157,15 +161,49 @@ body {
     font-weight: normal;
     color: #FFF;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
-    width:310px
+    width:350px;
+    margin-top: 15px;
+    margin-bottom: 30px;
 }
 .learn-more {
     display: block;
     text-decoration: none;
     text-align: center;
+    }
+
+    .instruct-1  {
+        display: block;
+        text-align: center;
+        box-sizing: border-box;
+        font-size: 14px;
+        font-style: italic;
+        color: #757575;
+        font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+
+.instruct-2 {
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 10px;
+    background-color: #ECEEF1;
+    margin: 32px -30px -30px -30px;
+    padding: 16px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.links-footer {
+    display:flex;
+    margin-top: 25px;
+    justify-content: center;
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial sans-serif;
     
 }
 
+.legal-link a, .privacy a, .security a {
+    text-decoration: none;
+    padding-left: 10px;
+    color:#505050;
+}
 
 
 
