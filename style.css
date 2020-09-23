@@ -38,8 +38,9 @@ margin-top:50px;
     align-items: flex-start;
 }
 
-main {
-    border-bo
+.main-cont {
+    display: flex;
+    margin: 0px 100px;
 }
 
 .intuit-brand-logo {
@@ -53,6 +54,9 @@ main {
 .three-icons-cont {
     display: flex;
     flex-direction: row;
+    display: block;
+    margin-left: auto;
+   margin-right: auto;
 }
 
 .mainForm-cont {
