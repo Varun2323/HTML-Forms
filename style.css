@@ -97,9 +97,6 @@ body {
 }
 
 .mainForm-cont {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     background-color: white;
     border: 1px solid #c7c7c7;
     font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -113,6 +110,7 @@ body {
 }
 
 .intuitHead {
+    text-align: center;
     margin-top: 30px;
     display:block;
     color: #4C4C4C;
@@ -123,6 +121,7 @@ body {
 }
 
 .intuitAcount {
+    text-align: center;
     display: block;
     padding-top: 20px;
     font-weight: 300;
@@ -130,7 +129,9 @@ body {
 }
 
 .learn-more {
+    display: block;
     text-decoration: none;
+    text-align: center;
 }
 
 .form-cont {
