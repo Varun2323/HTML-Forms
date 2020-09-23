@@ -19,9 +19,7 @@ body {
     text-align: left;
 }
 
-.fontColor-grey {
-    color: darkslategray;
-}
+
 
 .signUp-button {
     border-radius: 4px;
@@ -109,6 +107,10 @@ body {
     padding: 30px;
 }
 
+.form-cont {
+    padding-top: 20px;
+}
+
 .intuitHead {
     text-align: center;
     margin-top: 30px;
@@ -128,18 +130,42 @@ body {
     line-height: 1.2;
 }
 
-.learn-more {
-    display: block;
-    text-decoration: none;
-    text-align: center;
+.email, .phone, .password {
+    font-size: 20px;
 }
 
-.form-cont {
-    padding-top: 20px;
+.emailInput , .phoneInput , .passwordInput {
+    margin-top: 10px;
+    width : 310px;
+    height: 35px;
+    border: 1px solid #C1C5C8;
+    border-radius: 3px;
+    line-height: 1.3em;
+    box-sizing: border-box;
 }
-
 .phone-alert {
     padding: 5px 0;
     font-size: 10px;
     color: #444;
 }
+
+.account-btn {
+    background: #0077C5;
+    border-radius: 4px;
+    border: 1px solid #4c4c4c;
+    padding: 6px 12px;
+    font-weight: normal;
+    color: #FFF;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
+    width:310px
+}
+.learn-more {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+
+
+
