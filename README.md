@@ -66,7 +66,7 @@ LinkedIn: [Varun Sharma](https://www.linkedin.com/in/varun-sharma-82b29b82/)
 
 GitHub: [@milypm](https://github.com/milypm)
 
-LinkedIn: mily puente
+LinkedIn: [Mily Puente](https://www.linkedin.com/in/milypuentem/)
 
 	
   
