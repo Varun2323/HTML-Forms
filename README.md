@@ -58,13 +58,13 @@ You can download the code or clone the repository to your local system.
 
 👤 Varun Sharma
 
-GitHub: @ultramax
+GitHub: [@ultramax](https://github.com/ultramax)
 
 LinkedIn: varun sharma
 
 👤 Mily Morones
 
-GitHub: @milypm
+GitHub: [@milypm](https://github.com/milypm)
 
 LinkedIn: mily puente
 
