@@ -76,6 +76,6 @@ Spread the word if you like this project.
 
 ## **Acknowledgments**
 
-Thanks to - http://w3schools-fa.ir
+Thanks to - [W3Schools](http://w3schools-fa.ir)
 
-Thanks to - https://stackoverflow.com
+Thanks to - [stack overflow](https://stackoverflow.com/)
