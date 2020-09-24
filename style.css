@@ -110,7 +110,7 @@ body {
     border-radius: 2px;
     box-shadow: none;
     width: 380px;
-    padding-bottom: 23px;
+    padding-bottom: 0px;
 }
 
 .form-cont {
@@ -209,7 +209,7 @@ body {
     font-size: 12px;
     font-style: italic;
     color: #757575;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .instruct-2 {
@@ -217,9 +217,11 @@ body {
     background-color: #ECEEF1;
     color: #8d9096;
     margin: 0;
-    padding: 25px 44px 25px 45px;
+    padding: 25px 35px 25px 25px;
     font-weight: normal;
-    width: 318px;
+    width: 320px;
+    display: block;
+    text-align: center;
 }
 
 /*************************** F O O T E R  *********************************/
