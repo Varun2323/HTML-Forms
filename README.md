@@ -30,9 +30,9 @@ Project based on Mint's sign-up page, it shows a Sign-in section on the top-righ
  
  
  
- ### **Live Demo link:** 
+  [Live demo link](https://ultramax.github.io/HTML-Forms/)
  
- https://ultramax.github.io/HTML-Forms/
+ 
 
  
  
