@@ -2,12 +2,15 @@ body {
     background: #ECEEF1;
     margin: 0px;
     padding: 0px;
-    }
+}
 
 .whole-page {
     display: flex;
     flex-direction: column;
+    font-family: "Avenir Next", Avenir, "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
+
+/************** S I G N  I N  B U T T O N  S E C T I O N *****************/
 
 .signUp-header {
     display:flex;
@@ -19,8 +22,6 @@ body {
     text-align: left;
 }
 
-
-
 .signUp-button {
     display:inline-flex;
     justify-content: center;
@@ -29,7 +30,7 @@ body {
     background: #0077C5;
     padding: 2px;
     border: 1px solid #4c4c4c;
-    margin-left: 20px;
+    margin-left: 10px;
     font-size: 1.125em;
     font-weight: normal;
     letter-spacing: normal;
@@ -39,6 +40,7 @@ body {
     font-size: 14px;
     line-height: 1.5;
     text-align: center;
+    cursor: pointer;
 }
 
 .signUp-button i {
@@ -53,8 +55,9 @@ body {
 }
 
 .SignIn-text {
-    padding-top: 5px;
-    padding-right: 3px;
+    font-size: 12px;
+    padding-top: 3px;
+    padding-right: 5px;
 }
 
 .header-text {
@@ -62,23 +65,23 @@ body {
 }
 
 .text-1 {
-    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: normal;
     color: #505050;
 }
 
 .text-2 {
-    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: normal;
     margin-top: 10px;
 }
 
+/******************* L O G O  A N D  I C O N S ************************/
+
 .main-cont {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
-    padding: 50px;
+    margin: auto;
     width: 380px;
+    border-radius: 2px;  
 }
 
 .logo-icons-cont {
@@ -93,26 +96,27 @@ body {
 
 .three-icons-cont {
     display: flex;
-    margin: 20px auto;
+    margin: 10px auto;
 }
+
+/***************************** F O R M  *********************************/
 
 .mainForm-cont {
     background-color: white;
-    border: 1px solid #c7c7c7;
     font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
+    border: 1px solid #c7c7c7;
     font-weight: normal;
     border-radius: 2px;
     box-shadow: none;
-    margin: auto;
-    overflow: visible;
-    padding: 30px;
-    display: block;
-    width:380px;
+    width: 380px;
+    padding-bottom: 23px;
 }
 
 .form-cont {
-    padding-top: 20px;
+    padding-top: 10px;
+    margin-left: 30px;
+    margin-right: 20px;
 }
 
 .intuitHead {
@@ -132,30 +136,37 @@ body {
     padding-top: 20px;
     font-weight: 300;
     line-height: 1.2;
+    color: #4C4C4C;
+}
+
+.learn-more {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 15px;
 }
 
 .email, .phone, .password {
-    font-size: 20px;
+    font-size: 14px;
     color: #404040;
-    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .emailInput , .phoneInput , .passwordInput {
     margin-top: 10px;
-    width : 350px;
+    width : 318px;
     height: 35px;
     border: 1px solid #C1C5C8;
     border-radius: 3px;
     line-height: 1.3em;
     box-sizing: border-box;
 }
+
 .phone-alert {
-    padding: 5px 0;
     font-size: 10px;
     color: #444;
 }
 
-.lock-icon {
+.unlock-icon {
     position:relative;
     right: 1px;
     height: 32px;
@@ -163,7 +174,9 @@ body {
     bottom: 1px;
     margin-left: -30px;
     color:grey;
+    opacity: 0.5;
 }
+
 .account-btn {
     background: #0077C5;
     border-radius: 4px;
@@ -171,70 +184,78 @@ body {
     padding: 12px 12px;
     font-weight: normal;
     color: #FFF;
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
-    width:350px;
+    width: 318px;
     margin-top: 15px;
     margin-bottom: 30px;
-    font-size: 18px;
+    font-size: 17px;
     vertical-align: middle;
+    cursor: pointer;
 }
 
-.lock-1 {
+.account-btn:hover {
+    background: #147ec5;
+}
+
+.lock {
     vertical-align: middle;
     padding-right: 5px;
     font-size: 30px;
 }
-.learn-more {
-    display: block;
-    text-decoration: none;
-    text-align: center;
-    }
 
-    .instruct-1  {
-        display: block;
-        text-align: center;
-        box-sizing: border-box;
-        font-size: 14px;
-        font-style: italic;
-        color: #757575;
-        font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
-        }
+.instruct-1  {
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-style: italic;
+    color: #757575;
+    margin-bottom: 50px;
+}
 
 .instruct-2 {
-    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 10px;
     background-color: #ECEEF1;
-    margin: 32px -30px -30px -30px;
-    padding: 16px;
-    text-align: center;
+    color: #8d9096;
+    margin: 0;
+    padding: 25px 44px 25px 45px;
     font-weight: normal;
+    width: 318px;
 }
+
+/*************************** F O O T E R  *********************************/
 
 .links-footer {
     display:flex;
-    margin-top: 25px;
+    margin-top: 30px;
     justify-content: center;
-    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial sans-serif;
-    
 }
 
 .legal-link a, .privacy a, .security a {
-    text-decoration: none;
     padding-left: 10px;
     color:#505050;
     font-size: 13px; 
 }
 
-.footer-info-1 , .footer-info-2 {
+ .legal-link a:hover, .privacy a:hover, .security a:hover {
+    text-decoration: underline;
+ }
+
+ .footer-info-1 , .footer-info-2 {
     color:#505050;
     display: block;
     text-align: center; 
-    font-size: 15px;  
+    font-size: 13px;  
 }
 
 .termsAndConditions {
-    margin-top: -45px;
+    padding-bottom: 30px;
 }
 
+/************************************************************************/
 
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #0077C5;
+}
 
