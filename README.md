@@ -60,7 +60,7 @@ You can download the code or clone the repository to your local system.
 
 GitHub: [@ultramax](https://github.com/ultramax)
 
-LinkedIn: varun sharma
+LinkedIn: [Varun Sharma](https://www.linkedin.com/in/varun-sharma-82b29b82/)
 
 👤 Mily Morones
 
