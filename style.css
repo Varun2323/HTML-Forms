@@ -1,0 +1,263 @@
+body {
+    background: #ECEEF1;
+    margin: 0px;
+    padding: 0px;
+}
+
+.whole-page {
+    display: flex;
+    flex-direction: column;
+    font-family: "Avenir Next", Avenir, "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+/************** S I G N  I N  B U T T O N  S E C T I O N *****************/
+
+.signUp-header {
+    display:flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-right: 30px;
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.signUp-button {
+    display:inline-flex;
+    justify-content: center;
+    border-radius: 4px;
+    color: white;
+    background: #0077C5;
+    padding: 2px;
+    border: 1px solid #4c4c4c;
+    margin-left: 10px;
+    font-size: 1.125em;
+    font-weight: normal;
+    letter-spacing: normal;
+    word-spacing: normal;
+    width: 110px;
+    height: 34px;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    cursor: pointer;
+}
+
+.signUp-button i {
+    width: auto;
+    height: auto;
+    max-width: -6px;
+    max-height: -10px;
+    margin-top: 2px;
+    margin-right: 4px;
+    vertical-align: text-top;
+    display: inline-block;
+}
+
+.SignIn-text {
+    font-size: 12px;
+    padding-top: 3px;
+    padding-right: 5px;
+}
+
+.header-text {
+    padding: 0px;
+}
+
+.text-1 {
+    font-weight: normal;
+    color: #505050;
+}
+
+.text-2 {
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+/******************* L O G O  A N D  I C O N S ************************/
+
+.main-cont {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 380px;
+    border-radius: 2px;  
+}
+
+.logo-icons-cont {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.three-icons-cont {
+    display: flex;
+    margin: 10px auto;
+}
+
+/***************************** F O R M  *********************************/
+
+.mainForm-cont {
+    background-color: white;
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    border: 1px solid #c7c7c7;
+    font-weight: normal;
+    border-radius: 2px;
+    box-shadow: none;
+    width: 380px;
+    padding-bottom: 0px;
+}
+
+.form-cont {
+    padding-top: 10px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.intuitHead {
+    text-align: center;
+    margin-top: 30px;
+    display:block;
+    color: #4C4C4C;
+    font-weight: 400;
+    line-height: 1.1;
+    font-size: 24px;
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.intuitAcount {
+    text-align: center;
+    display: block;
+    padding-top: 20px;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #4C4C4C;
+}
+
+.learn-more {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.email, .phone, .password {
+    font-size: 14px;
+    color: #404040;
+}
+
+.emailInput , .phoneInput , .passwordInput {
+    margin-top: 10px;
+    width : 318px;
+    height: 35px;
+    border: 1px solid #C1C5C8;
+    border-radius: 3px;
+    line-height: 1.3em;
+    box-sizing: border-box;
+}
+
+.phone-alert {
+    font-size: 10px;
+    color: #444;
+}
+
+.unlock-icon {
+    position:relative;
+    right: 1px;
+    height: 32px;
+    top: 6px;
+    bottom: 1px;
+    margin-left: -30px;
+    color:grey;
+    opacity: 0.5;
+}
+
+.account-btn {
+    background: #0077C5;
+    border-radius: 4px;
+    border: 1px solid #4c4c4c;
+    padding: 12px 12px;
+    font-weight: normal;
+    color: #FFF;
+    width: 318px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-size: 17px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.account-btn:hover {
+    background: #147ec5;
+}
+
+.lock {
+    vertical-align: middle;
+    padding-right: 5px;
+    font-size: 30px;
+}
+
+.instruct-1  {
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-style: italic;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.instruct-2 {
+    font-size: 10px;
+    background-color: #ECEEF1;
+    color: #8d9096;
+    margin: 0;
+    padding: 25px 35px 25px 25px;
+    font-weight: normal;
+    width: 320px;
+    display: block;
+    text-align: center;
+}
+
+/*************************** F O O T E R  *********************************/
+
+.links-footer {
+    display:flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.legal-link a, .privacy a, .security a {
+    padding-left: 10px;
+    color:#505050;
+    font-size: 13px; 
+}
+
+ .legal-link a:hover, .privacy a:hover, .security a:hover {
+    text-decoration: underline;
+ }
+
+ .footer-info-1 , .footer-info-2 {
+    color:#505050;
+    display: block;
+    text-align: center; 
+    font-size: 13px;  
+}
+
+.termsAndConditions {
+    padding-bottom: 30px;
+}
+
+/************************************************************************/
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #0077C5;
+}
+
